@@ -1,12 +1,13 @@
+//David Clarke G00335563
 package main
 
 import "fmt"
 
 func main() {
-
+//declared variables
 var input int
 
-
+	//asks user to input a number to factorise
 	fmt.Println("Please enter a number to factorise")
 	fmt.Scan(&input)
 
@@ -30,7 +31,7 @@ var input int
 	 } 
 	 return factorial
  }
-
+//formula
  func sum(input int) int {
     sum := 0;
     digits := [200]int{};

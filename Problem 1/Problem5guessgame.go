@@ -1,4 +1,4 @@
-//guessing game
+//David Clarke G00335563
 //code used from http://golangcookbook.blogspot.ie/2012/11/guess-number-game-in-golang.html
 package main
 import(
