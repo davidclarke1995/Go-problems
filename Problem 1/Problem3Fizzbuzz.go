@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//This func prints out the "Fizzbuzz" values
 func fizzbuzz(max int) {
 	for i := 1; i < max; i++ {
 		switch {
@@ -17,6 +17,7 @@ func fizzbuzz(max int) {
 	}
 }
 
-func main() {
+func main(){
+	//main method sends the value int "100" to the "Fizzbuzz" method, int value is changeable
 	fizzbuzz(100)
 }
